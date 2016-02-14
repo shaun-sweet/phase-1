@@ -25,33 +25,33 @@ Since it is not best practice to work directly from the master branch there are 
 
 # Write a handy cheatsheet of the commands you need to commit your changes.
 
-- `git pull`
+`git pull`
 
-		* Get most recent changes
+	- Get most recent changes
 
-- `git checkout -b new_branch`
+`git checkout -b new_branch`
 
-		* Create and switch to a new branch
+	- Create and switch to a new branch
 
-- `git add`
+`git add`
 
-		* Set changes you've done to be committed
+	- Set changes you've done to be committed
 
-- `git commit -v` *or* `git commit -m "message"`
+`git commit -v` *or* `git commit -m "message"`
 
-		* Open sublime to write a message for your commit or just write the message in the command line using the second option
+	- Open sublime to write a message for your commit or just write the message in the command line using the second option
 
-- `git push origin new_branch`
+`git push origin new_branch`
 
-		* Push changes to GitHub 
+	- Push changes to GitHub 
 
-- `git fetch origin master`
+`git fetch origin master`
 
-		* Get changes you made on GitHub to your local machine
+	- Get changes you made on GitHub to your local machine
 
-- `git merge origin/master`
+`git merge origin/master`
 
-		* Merge these changes with your master
+	- Merge these changes with your master
 
 
 # What is a pull request and how do you create and merge one?
