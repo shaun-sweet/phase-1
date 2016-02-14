@@ -20,30 +20,37 @@ HEAD^ in Git refers to current commit you are on, which can be the current branc
 
 # What are the 3 stages of a git change and how do you move a file from one stage to the other?
 
-Since it is not best practice to work directly from the master branch there are a few steps to take to make changes. For the first stage, on the master branch, do a git pull to get the changes. You would then create a new branch using "git checkout -b new_branch". Then you would do your work on that branch you created. Once this is done, for the next stage, you would check your "git status" to see that changes have been made, and if you are satisfied with the changes you can do a "git add ." to add the files to commit. You would then "git commit -m "your message"". Then, you would use the command "git push origin new_branch" to push your changes remotely. For the final stage, on GitHub, you would create a pull request to merge your branches. Once you follow the steps and merge on GitHub you can also delete this new_branch. Then back on the command line, you can swtich back to the master using "git checkout master" and use "git fetch origin master" to get the changes you made on GitHub remotely to your local machine, then finally "git merge origin/master" to merge, and you've made a change.
+Since it is not best practice to work directly from the master branch there are a few steps to take to make changes. For the first stage, on the master branch, do a git pull to get the changes. You would then create a new branch using `git checkout -b new_branch`. Then you would do your work on that branch you created. Once this is done, for the next stage, you would check your `git status` to see that changes have been made, and if you are satisfied with the changes you can do a `git add .` to add the files to commit. You would then `git commit -m "your message"`. Then, you would use the command "git push origin new_branch" to push your changes remotely. For the final stage, on GitHub, you would create a pull request to merge your branches. Once you follow the steps and merge on GitHub you can also delete this new_branch. Then back on the command line, you can swtich back to the master using `git checkout master` and use `git fetch origin master` to get the changes you made on GitHub remotely to your local machine, then finally `git merge origin/master` to merge, and you've made a change.
 
 
 # Write a handy cheatsheet of the commands you need to commit your changes.
 
 `git pull`
+
 Get most recent changes
 
 `git checkout -b new_branch`
+
 Create and switch to a new branch
 
 `git add`
+
 Set changes you've done to be committed
 
 `git commit -v **_OR_** git commit -m "message"`
+
 Open sublime to write a message for your commit or just write the message in the command line using the second option
 
 `git push origin new_branch`
+
 Push changes to GitHub 
 
 `git fetch origin master`
+
 Get changes you made on GitHub to your local machine
 
 `git merge origin/master`
+
 Merge these changes with your master
 
 
