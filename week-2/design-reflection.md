@@ -1,4 +1,4 @@
-![Site-map](jbkaplan/phase-0/blob/master/week-2/imgs/site-map.png "Site-map")
+![Site-map](/imgs/site-map.png "Site-map")
 
 # What are the 6 Phases of Web Design?
 
